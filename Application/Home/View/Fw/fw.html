@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport">
+    <title>服务范围</title>
+    <meta name="keywords" content="西安网站维护，西安网站优化，西安网站制作，西安做网站，西安做网页，西安网页制作，西安网站开发，西安企业网站制作，西安网页设计" />
+    <meta name="description" content="西安网站制作、做网站、西安网页制作设计-就找西安腾诺网络，我公司是一家集网站制作，网站设计，网页制作，网站推广，网站优化，网站维护等为一体的网络公司，公司秉承以人为本，精益求精的理念，期待与你的合作。" />
+    
+    <link rel="stylesheet" href="__ROOT__/Public/Home/css/service.css">
+</head>
+<body>
+<div class="top">
+     <include file="public/header" />
+</div>
+<div class="re">
+</div>
+
+<div class="ser">
+    <div class="ser1">
+        <h3>我们做什么？</h3>
+        <p>应您所求，供您所需，专注技术，创新设计，为企业提供高端个性定制化建站服务。<br>
+            构建安全，高效的HTML5响应式网站，随心而变，一次实施，全网应用——颠覆传统应用模板，开启移动端设计革命。<br>
+            提供高端定制服务，针对微网站、电商平台提供一条龙解决方案。</p>
+
+        <div class="ser2">
+            <ul class="ser3">
+                <li class="cy"><span class="img_1"></span>展示型网站</li>
+                <li><span class="img_2"></span>集团型网站</li>
+                <li><span class="img_3"></span>电商网站</li>
+                <li><span class="img_4"></span>手机/微网站</li>
+                <li><span class="img_5"></span>基础服务</li>
+            </ul>
+        </div>
+        <div class="ser4">
+            <div class="ser5">
+                <div class="ser6">
+                    <img src="__ROOT__/Public/{$resa.imgpath}" alt="西安网站制作">
+                </div>
+                <div class="ser7">
+                    <h3>{$resa.title|msubstr=0,15}</h3>
+                    <div class="ser8">{$resa.content}</div>
+                    <span class="ser9"><a href="__APP__/fwinfo-id-{$resa['id']}.html">查看详情 > ></a></span>
+                </div>
+            </div>
+            <div class="ser5" style="display: none">
+                <div class="ser6">
+                    <img src="__ROOT__/Public/{$resb.imgpath}" alt="西安网络公司">
+                </div>
+                <div class="ser7">
+                    <h3>{$resb.title|msubstr=0,15}</h3>
+                    <div class="ser8">{$resb.content}</div>
+                    <span class="ser9"><a href="__APP__/fwinfo-id-{$resb['id']}.html">查看详情 > ></a></span>
+                </div>
+            </div>
+            <div class="ser5" style="display: none">
+                 <div class="ser6">
+                    <img src="__ROOT__/Public/{$resc.imgpath}" alt="西安网站推广">
+                </div>
+                <div class="ser7">
+                    <h3>{$resc.title|msubstr=0,15}</h3>
+                    <div class="ser8">{$resc.content}</div>
+                    <span class="ser9"><a href="__APP__/fwinfo-id-{$resc['id']}.html">查看详情 > ></a></span>
+                </div>
+            </div>
+            <div class="ser5" style="display: none">
+                 <div class="ser6">
+                    <img src="__ROOT__/Public/{$resd.imgpath}" alt="西安小程序开发">
+                </div>
+                <div class="ser7">
+                    <h3>{$resd.title|msubstr=0,15}</h3>
+                    <div class="ser8">{$resd.content}</div>
+                    <span class="ser9"><a href="__APP__/fwinfo-id-{$resd['id']}.html">查看详情 > ></a></span>
+                </div>
+            </div>
+            <div class="ser5" style="display: none">
+                <div class="ser6">
+                    <img src="__ROOT__/Public/{$rese.imgpath}" alt="西安网站建设">
+                </div>
+                <div class="ser7">
+                    <h3>{$rese.title|msubstr=0,15}</h3>
+                    <div class="ser8">{$rese.content}</div>
+                    <span class="ser9"><a href="__APP__/fwinfo-id-{$rese['id']}.html">查看详情 > ></a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+    $(function () {
+        $(".ser4>div:not(:first)").hide()
+        $(".ser3>li").hover(function () {
+            $(this).addClass("cy").siblings().removeClass("cy")
+
+            var $index=$(this).index();
+            $(this).addClass("but").siblings().removeClass("but")
+
+
+            $(".ser4>div").eq($index).show().siblings().hide()
+
+        })
+    })
+
+
+</script>
+<div class="clear"></div>
+<div class="zzlc">
+    <div class="zzlc1">
+        <h3>优秀的项目是这样出来的</h3>
+        <p>优化产品流程，增强产品的易用性，提高使用者的工作效率，科学地组织生产。</p>
+        <div class="zzlc3">
+            <ul>
+                <li class="zzlc4">
+                    <img src="__ROOT__/Public/Home/images/liu1.png" alt="西安网站制作">
+                    <h3>需求沟通</h3>
+                    <div>倾听客户需求，了解用户使用环境和操作流程</div>
+                </li>
+                <li class="zzlc5">
+                    <img src="__ROOT__/Public/Home/images/liu2.png" alt="西安网页制作">
+                </li>
+                <li class="zzlc4">
+                    <img src="__ROOT__/Public/Home/images/liu3.png" alt="西安网站建设公司">
+                    <h3>页面设计</h3>
+                    <div>根据客户内容要求，搭建结构图进行页面风格设计</div>
+                </li>
+                <li class="zzlc5">
+                    <img src="__ROOT__/Public/Home/images/liu2.png" alt="西安网站制作公司">
+                </li>
+                <li class="zzlc4">
+                    <img src="__ROOT__/Public/Home/images/liu4.png" alt="西安网站开发">
+                    <h3>前端制作</h3>
+                    <div>CSS3、JS、HTML5实现页面动态展示</div>
+                </li>
+                <li class="zzlc5">
+                    <img src="__ROOT__/Public/Home/images/liu2.png" alt="西安网站制作">
+                </li>
+                <li class="zzlc4">
+                    <img src="__ROOT__/Public/Home/images/liu5.png" alt="西安网络公司">
+                    <h3>技术开发</h3>
+                    <div>移动应用数据对接与开发</div>
+                </li>
+                <li class="zzlc5">
+                    <img src="__ROOT__/Public/Home/images/liu2.png" alt="西安网站推广">
+                </li>
+                <li class="zzlc4">
+                    <img src="__ROOT__/Public/Home/images/liu6.png" alt="西安小程序开发">
+                    <h3>测试反馈</h3>
+                    <div>修改调整，规范完善</div>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<div class="ln">
+    <div class="ln1">
+        <h3>我们力推“快速化”的产品理念</h3>
+        <p>我们了解中小企业发展对企业网站的迫切需求，筛选了一批精致的HTML5+CSS3成套网站产品，让您的企业建站更快捷、更迅速。<br>
+            作为大客户，我们团队将提供更优质的定制解决方案，提升企业形象及品牌影响力！</p>
+        <div class="wrap">
+            <ul>
+                <li>
+                   <div class="solu_img"><img src="__ROOT__/Public/Home/images/cgo_ind29.png" alt="网站建设套餐"><h2>¥ 3800元</h2><p>快速建站套餐</p></div>
+                   <div class="solu_tex"><p>包含：<br>域名、空间、标准模版一套（<span>立即选择</span>）、含新闻、产品常规后台发布系统，免费网站备案及1年免费维护。</p></div>
+                </li>
+                <li>
+                    <div class="solu_img"><img src="__ROOT__/Public/Home/images/cgo_ind30.png" alt="高端网站定制开发"><h2>¥ 5800元<span> 起</span></h2><p>高端网站定制</p></div>
+                    <div class="solu_tex"><p>包含：<br>域名、空间、高级设计师自定义设计网站页面、含新闻、产品、案例等定制后台发布系统，免费网站备案及1年免费维护。</p></div>
+                </li>
+                <li>
+                    <div class="solu_img"><img src="__ROOT__/Public/Home/images/cgo_ind31.png" alt="微网站开发制作"><h2>¥ 8800元</h2><p>微商城套餐</p></div>
+                    <div class="solu_tex"><p>包含：<br>ECTouch（微信商城），采用国际标准HTML5+CSS3研发，完美对接EcShop电商系统，为中小企业提供移动电商解决方案。</p></div>
+                </li>
+                <li>
+                    <div class="solu_img"><img src="__ROOT__/Public/Home/images/cgo_ind32.png" alt="网站定制开发"><h2>更多产品</h2><p>平台定制/众筹/P2P</p></div>
+                    <div class="solu_tex"><p>包含：<br>我们可根据客户需求进行定制化开发，P2P在线理财、股权众筹、DIY平台定制、平面设计及摄影等，咨询热线：029-89298792</p></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<div class="gd">
+    <div class="gd1">
+        <h3>知识观点</h3>
+        <div class="gd2">
+		    <volist name="row" id="vo">
+            <div class="gd3">
+                <div class="gd4">
+                    <a href="__APP__/newsinfo-id-{$vo['id']}.html">
+                    <div class="gd5"><img src="__ROOT__/Public/{$vo.imgpath}" alt="西安小程序开发"></div>
+                    <div class="gd6">
+                        <h3>{$vo.title|msubstr=0,20}</h3>
+                        <span>{:date('Y-m-d ',$vo['time'])}</span>
+                    </div>
+                    </a>
+                </div>
+                <div class="gd7">{$vo.content|msubstr=0,95}</div>
+            </div>
+            </volist>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<include file="Public:footer" />

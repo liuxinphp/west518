@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport">
+    <title>{$res.title}-西安腾诺网络</title>
+	<meta name="keywords" content="西安网站建设，西安网站制作，西安网页制作，西安网站建设公司，西安网站制作公司，西安网站开发，西安企业网站制作，西安网络公司，西安软件开发公司，西安小程序制作，西安微信小程序制作，西安公众号开发，西安微信公众号制作，" />
+    <meta name="description" content="西安网站制作、做网站、西安网页制作设计-就找西安腾诺网络，我公司是一家集网站制作，网站设计，网页制作，网站推广，网站优化，网站维护等为一体的网络公司，公司秉承以人为本，精益求精的理念，期待与你的合作。" />
+    <link rel="stylesheet" href="__ROOT__/Public/Home/css/consulting.css">
+    <script src="__ROOT__/Public/Home/js/swiper.min.js"></script>
+</head>
+<body>
+<div class="top">
+    <div class="top1">
+         <include file="public/header" />
+    </div>
+</div>
+<div class="clear"></div>
+    <div class="culinfo">
+        <div class="culinfo1">
+            <div class="culinfo2">
+                <div class="culinfo5">
+                    <h3>{$res.title|msubstr=0,15}</h3>
+                    <div class="culinfo4">
+                        <a href="javascript:history.go(-1)">返回</a>
+                    </div>
+                    <p><span>发表时间：{:date('Y-m-d ',$res['time'])}</span><span>浏览次数：{$res.liulan}</span><span>来源：{$res.author}</span></p>
+                </div>
+                <div class="jies">
+                    {$res.content}
+                    
+                </div>
+                <div class="fh">
+                    <span><a href="javascript:history.go(-1)">返回</a></span>
+                </div>
+                <div class="ye1">
+				       <if condition="($prev neq '')"> 
+						 <a href="__APP__/fwinfo-id-{$prev['id']}.html" class="ye2">
+						<span></span>上一篇：{$prev.title}
+						</a>
+						 <else />
+						  <a class="ye2"><span></span>上一篇:暂没数据</a>
+					  </if>
+					   <if condition="($next neq '')"> 
+						   <a href="__APP__/fwinfo-id-{$next['id']}.html" class="ye3">
+						 <span></span>下一篇：{$next.title}
+							   </a>
+								<else />
+							 <a class="ye3"><span></span>下一篇:暂没数据</a>
+						</if>
+				
+                    
+                </div>
+            </div>
+            <div class="culinfo3">
+                <div class="news_right-title">
+                    <h1>资讯推荐</h1>
+                    <h2>OUR CASE</h2>
+                </div>
+                <ul class="zxlb">
+				  <volist name="news_list" id="vo">
+                    <li>
+
+                            <a href="__APP__/newsinfo-id-{$vo['id']}.html">
+                                <i>
+                                    <span>{:date('m ',$vo['time'])}</span>
+                                    <em>{:date('Y ',$vo['time'])}年</em>
+                                </i>
+                                <div  class="zxlb1">
+                                    <h3>{$vo.title|msubstr=0,10}</h3>
+                                    <div>{$vo.content|msubstr=0,25}</div>
+                                </div>
+                            </a>
+
+                    </li>
+                   </volist>
+                </ul>
+            </div>
+            <div class="clear">
+
+            </div>
+        </div>
+    </div>
+<include file="Public:footer" />

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport">
+    <title>关于我们</title>
+    <meta name="keywords" content="西安哪里有网站维护，西安网站优化，西安网站制作，西安做网站，西安做网页，西安网页制作，西安网站开发，西安企业网站制作，西安网页设计" />
+    <meta name="description" content="西安腾诺网络致力于互联网品牌建设与网络营销，专业领域包括网站建设、电子商务、移动互联网营销、系统平台开发等服务范围， 并且涵盖基础的域名服务、主机服务；企业邮箱、网络营销等应用服务" />
+
+    <link rel="stylesheet" href="__ROOT__/Public/Home/css/about.css">
+</head>
+<body>
+<div class="top">
+    <include file="public/header" />
+</div>
+
+<div class="ab"></div>
+
+<div class="abou">
+    <div class="abou1">
+        <div class="abou2">
+            <img src="__ROOT__/Public/Home/images/about_02.png" alt="西安小程序开发">
+        </div>
+        <div class="abou3">
+            <h3>{$about_list.title}</h3>
+            <div class="abou4">
+                {$about_list.content}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="abi">
+    <div class="abi1">
+        <h3>企业文化</h3>
+        <p>我们敢想、敢做、敢创新，我们深知尺有所短、寸有所长，<br>
+            但我们敢于变化，专注于互联网产品的创新，以最新的理念帮助您完善产品，我们秉承与客户双赢的理念，您的产品，也是我们的产品。</p>
+
+        <div class="abi2">
+            <ul>
+			   <volist name="res" id="vo">
+                <li><img src="__ROOT__/Public/{$vo.imgpath}" alt="西安网站建设"></li>
+               </volist> 
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<div class="gd">
+    <div class="gd1">
+        <h3>公司动态</h3>
+        <div class="gd2">
+		    <volist name="ress" id="vo">
+            <div class="gd3">
+                <div class="gd4">
+                    <a href="__APP__/newsinfo-id-{$vo['id']}.html">
+                        <div class="gd5"><img src="__ROOT__/Public/{$vo.imgpath}" alt="西安网站制作"></div>
+                        <div class="gd6">
+                            <h3>{$vo.title|msubstr=0,20}</h3>
+                            <span>{:date('Y-m-d ',$vo['time'])}</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gd7">{$vo.content|msubstr=0,95}</div>
+            </div>
+            </volist> 
+        </div>
+    </div>
+</div>
+<include file="Public:footer" />

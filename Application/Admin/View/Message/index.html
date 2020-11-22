@@ -1,0 +1,64 @@
+
+		
+		<div id="content">
+			<div id="content-header">
+				<h1>管理</h1>
+			</div>
+			<div id="breadcrumb">
+				<a href="__APP__/Admin/Index/index" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> 后台首页</a>
+				<a  class="current">列表</a>
+			</div>
+			<div class="container-fluid">
+				<div class="row-fluid">
+					<div class="span12">
+						<div class="widget-box">
+							<div class="widget-title">
+								<span class="icon">
+									<input type="checkbox" id="title-checkbox" name="title-checkbox" />
+								</span>
+								<h5>Static table with checkboxes in box with padding</h5>
+							</div>
+							<div class="widget-content nopadding">
+								<table class="table table-bordered table-striped with-check">
+									<thead>
+										<tr>
+											<th><i class="icon-resize-vertical"></i></th>
+											<th>ID</th>
+											<th>姓名</th>
+											 <th>电话</th>
+											 <th>邮箱</th>
+											<th>内容</th>
+										    <th>时间</th>
+											<th>操作</th>
+										</tr>
+									</thead>
+									<tbody>
+									    <foreach name="message" item="vo">
+										<tr>
+											<td><input type="checkbox" /></td>
+											<td>{$vo.id}</td>
+											<td>{$vo.name}</td>
+											<td>{$vo.tel}</td>
+											<td>{$vo.email}</td>
+									       <td>{$vo.ms|msubstr=0,10}</td>
+										   <td>{:date('Y-m-d ',$vo['time'])}</td>
+											<td>
+												<a href="__APP__/Admin/Message/update/id/{$vo.id}"  class="btn btn-primary btn-mini">Edit</a>
+												<a href="__APP__/Admin/Message/log_delete/id/{$vo.id}"  class="btn btn-danger btn-mini">Delete</a>
+											</td>
+                                        </tr>
+									  </foreach>
+									</tbody>
+								</table>
+							</div>
+							<div class="widget-bottom">
+								<div class="dataTables_filter"><label>Search: <input type="text" aria-controls="DataTables_Table_0"></label></div>
+								<div class="dataTables_paginate">
+									{$page}
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				

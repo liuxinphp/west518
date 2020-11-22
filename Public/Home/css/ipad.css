@@ -1,0 +1,237 @@
+@media all and (min-width: 641px) and (max-width: 1024px) {
+    .fen{
+        display: block;
+    }
+    .top3 li div{
+        display: none;
+    }
+    .top3 li{
+        width: 100%;
+        border-bottom: dashed 1px #ccc;
+        display: block;
+        height: 37px;
+    }
+    .top3{
+        display: none;
+        float: none;
+        margin-top: 0;
+
+        z-index: 100;
+        background: rgba(255, 255, 255, 0.94);
+        position: absolute;
+        left: 0;
+        top:67px;
+        width: 100%;
+    }
+
+    .top3 li:hover{
+        background: #bf0000;
+    }
+    .top3 li:hover{
+        border-bottom: solid 1px #bf0000;
+    }
+    .top3 li:hover a{
+        color: #fff;
+    }
+    .swiper-slide img {
+        width: 100%;
+        height: 192px;
+    }
+    .top {
+        height: 66px!important;
+    }
+    .top1 img {
+        height: 49px;
+        margin: 7px 0 7px 7px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 15px!important;
+        height: 15px!important;
+
+    }
+    .top1 {
+        max-width: 1150px;
+        margin: 0 auto;
+        height: auto;
+        position: relative;
+    }
+    .fwxm2 li {
+        margin-bottom: 10px;
+        width: 15%;
+    }
+
+
+    .alzs2 li>a>img {
+        width: 100%;
+        height: 144px;
+    }
+
+    .alzs2 li {
+        display: inline-block;
+        float: left;
+        width: 24.5%;
+        margin-right: 5px;
+        position: relative;
+        overflow: hidden;
+    }
+    .alzs3 a img {
+        margin: 30px auto 10px;
+        width: 50px;
+        height: 50px;
+    }
+    .alzs3 a div {
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .zzlc3{
+        height:auto;
+    }
+    .zzlc5{
+        display: none!important;
+    }
+    .zzlc3 li {
+       width: 20% !important;
+        float: left;
+    }
+    .int img {
+        width: 100%;
+        height: 109px;
+        margin-top: 5px;
+    }
+    .foot10 textarea {
+        width: 91%;
+        height: 37px;
+        padding: 5px 10px;
+        line-height: 20px;
+        resize: none;
+        color: #cbcbcb;
+        background: #282b31;
+        outline: none;
+        border: none;
+    }
+    .foot11 input{
+        width: 97%;
+        border: none;
+        height: 40px;
+        background: #bf0000;
+        color: #ffffff;
+        outline: none;
+        font-size: 15px;
+    }
+    .inxe1>div {
+        float: left;
+        display: inline-block;
+        width: 46%;
+        margin-right: 50px;
+    }
+    .foot9 input {
+        width: 35%;
+    }
+    .int>div>div {
+        display: none;
+    }
+    .con41{
+        width: 81%;
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+
+    }
+
+    .ser2 li {
+        width: 19.5%;
+        display: inline-block;
+        text-align: center;
+        line-height: 40px;
+    }
+    .ser5{
+        padding: 0 5px;
+    }
+    .solu_img {
+        height: 113px;
+        border-radius: 50%;
+        border: solid 1px #bf0000;
+        text-align: center;
+        padding: 20px;
+    }
+    .solu_img h2 {
+        font-size: 16px;
+        line-height: 26px;
+        margin: 0;
+        color: #bf0000;
+    }
+    .wrap li>div:last-child {
+        background: #bf0000;
+        color: #fff;
+        width: 127px!important;
+        height: 125px!important;
+        display: none;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .solu_tex {
+        padding: 15px!important;
+        text-align: center;
+        line-height: 23px;
+    }
+    .wrap {
+        height: 175px;
+        margin-top: 25px;
+    }
+    .ser1>p {
+        line-height: 26px;
+        font-size: 14px;
+        text-align: center;
+        color: #666;
+
+    }
+    .ser8{
+        height: 120px;
+        overflow: hidden;
+    }
+    .ser7>h3 {
+        font-size: 26px;
+        line-height: 30px;
+        color: #333;
+        font-weight: normal;
+    }
+    .neq6>h3 {
+        height: 46px;
+        overflow: hidden;
+    }
+    .case_cont-title li {
+        float: left;
+        margin-left: 21px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .case_cont-title p span{
+        display: inline-block;
+        line-height: 25px;
+        margin-right: 15px;
+    }
+    .culinfo3{
+        display: none;
+    }
+    .culinfo2{
+        width: 100%;
+    }
+    .culinfo5>h3 {
+        font-size: 22px;
+        color: #767575;
+        margin-right: 60px;
+        font-weight: normal;
+    }
+	.qwf li {
+		display: inline-block;
+		width: 24.76%;
+		line-height: 40px;
+		border-right: solid 1px #bf0000;
+		float: left;
+}
+
+}

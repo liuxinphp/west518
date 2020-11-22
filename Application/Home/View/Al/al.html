@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport">
+    <title>案例展示</title>
+    <meta name="keywords" content="西安网站维护，西安网站优化，西安网站制作，西安做网站，西安做网页，西安网页制作，西安网站开发，西安企业网站制作，西安网页设计" />
+    <meta name="description" content="西安腾诺网络案例栏目为您展示西安网站制作，西安做网站，西安网页设计等案例展示，我们用实际案例让您相信我们的专业水平！" />
+    <link rel="stylesheet" href="__ROOT__/Public/Home/css/cart.css">
+</head>
+<body>
+<div class="top">
+    <div class="top1">
+       <include file="public/header" />
+    </div>
+</div>
+
+<div class="cal"></div>
+
+<div class="calo">
+    <div class="calo1">
+        <h3>案例展示</h3>
+        <p>腾诺网络秉着敢想、敢做、敢创新之文化理念，为企业提供高端网站一体化建设方案。行业经验丰富、过硬技术、项目流程严谨，与我们合作，让您省心、省力、省时。<br>
+            西安腾诺专注企业建站，成就企业经典，尽力满足客户需求，从策划到实施，我们提供的不只是建站。</p>
+        <div class="calo2">
+            <ul>
+                <li class="ky"><a href="__APP__/al.html">全部</a></li>
+				<volist name="al_list" id="vo">
+                <li><a href="__APP__/al-id-{$vo['id']}.html">{$vo.name}</a></li>
+                </volist>
+            </ul>
+        </div>
+        <div class="alzs2">
+            <ul>
+			    <volist name="res" id="vo">
+                 <li>
+                    <a href="__APP__/alinfo-id-{$vo['id']}.html">
+                        <img src="__ROOT__/Public/{$vo.imgpath}" alt="西安网页制作">
+                    </a>
+                    <div class="alzs3">
+                        <a href="__APP__/alinfo-id-{$vo['id']}.html">
+                            <img src="__ROOT__/Public/Home/images/cgo_ind6.png" alt="西安网站建设公司">
+                            <div>{$vo.title|msubstr=0,10}</div>
+                        </a>
+                    </div>
+                </li>
+               </volist> 
+            </ul>
+
+        </div>
+        <div class="clear"></div>
+        <div class="ye">
+            {$page}
+        </div>
+    </div>
+</div>
+
+<div class="clear"></div>
+<div class="gd">
+    <div class="gd1">
+        <h3>行业动态</h3>
+        <div class="gd2">
+		    <volist name="row" id="vo">
+            <div class="gd3">
+                <div class="gd4">
+                    <a href="__APP__/newsinfo-id-{$vo['id']}.html">
+                        <div class="gd5"><img src="__ROOT__/Public/{$vo.imgpath}" alt="西安网站制作公司"></div>
+                        <div class="gd6">
+                            <h3>{$vo.title|msubstr=0,15}</h3>
+                            <span>{:date('Y-m-d ',$vo['time'])}</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gd7">{$vo.content|msubstr=0,95}</div>
+            </div>
+            </volist>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<include file="Public:footer" />

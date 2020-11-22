@@ -1,0 +1,110 @@
+.con{
+    width: 100%;
+    height: 345px;
+    background: url("../images/coni.jpg") no-repeat center top;
+    background-size: 1920px 345px;
+	margin-top:90px;
+}
+.con2{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 30px 0 15px;
+}
+.con2>h3{
+    font-size: 26px;
+    color: #333;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.con2>p{
+    line-height: 26px;
+    font-size: 14px;
+    text-align: center;
+    color: #666;
+}
+.con3{
+   width: 100%;
+    height: auto;
+    position: relative;
+}
+.con3 iframe{
+    width: 99.9%;
+    height: 452px;
+    margin-left: 1px;
+    position: absolute;
+    left: 0;
+    top:0;
+
+}
+.con4{
+    position: absolute;
+    max-width: 1150px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top:0;
+}
+.con41{
+    position: absolute;
+    top:10px;
+    right: 0px;
+    width: 530px;
+    height: 360px;
+
+    border-radius: 20px;
+
+
+    background: url(../images/cgo_headBg.png) repeat;
+
+    padding: 24px 20px;
+
+    box-shadow: 0 0 5px #ddd;
+}
+.con1{
+    height: 606px;
+}
+
+.con41>h1>span{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #dfdfdf;
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    line-height: 55px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.con41>h1 {
+    overflow: hidden;
+    text-align: center;
+    font-weight: normal;
+}
+.ck{
+    background: #bf0000!important;
+    color: #ffffff!important;
+}
+.con41 h2 {
+    margin: 30px 0;
+    line-height: 22px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+}
+.con41 .ase {
+    text-align: center;
+    line-height: 22px;
+    color: #888;
+    font-size: 12px;
+    margin: 15px 0;
+}
+.con41 h3 {
+    line-height: 22px;
+    text-align: center;
+    color: #bf0000;
+    font-size: 14px;
+}

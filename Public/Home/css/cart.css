@@ -1,0 +1,302 @@
+.cal{
+    width: 100%;
+    height: 345px;
+    background: url("../images/all.jpg") no-repeat center top;
+    background-size: 1920px 345px;
+	margin-top:90px;
+}
+.calo1{
+    max-width: 1150px;
+    padding: 30px 0 15px;
+    margin: 0 auto;
+}
+.calo1>h3{
+    font-size: 26px;
+    color: #333;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.calo1>p{
+    line-height: 26px;
+    font-size: 14px;
+    text-align: center;
+    color: #666;
+}
+
+.calo2 li{
+    display: inline-block;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 25px;
+    height: 30px;
+    line-height: 30px;
+}
+.calo2{
+    text-align: center;
+    margin-top: 20px;
+}
+.ky{
+    background: #bf0000;
+    color: #ffffff;
+}
+.ky a{
+    color: #ffffff;
+}
+
+
+
+.alzs2 li{
+    display: inline-block;
+    float: left;
+    width: 24%;
+    margin-right:5px;
+    position: relative;
+    overflow: hidden;
+}
+.alzs2 li:nth-of-type(4n){
+    margin-right: 0px;
+}
+.alzs2 li>a>img{
+    width: 100%;
+    height: 186px;
+}
+.alzs2{
+    max-width: 1150px;
+
+    margin-top: 26px;
+}
+.alzs2 li>div{
+    position: absolute;
+    top:0;
+    left:-276px ;
+}
+.alzs3{
+    background: rgba(191, 0, 0, 0.77);
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    text-align: center;
+}
+.alzs3 a img{
+    margin: 30px auto 10px;
+}
+.alzs3 a div{
+    color: #ffffff;
+    /*font-weight: bold;*/
+    font-size:18px;
+}
+
+
+
+
+
+
+
+
+
+.gd{
+    background: #ececec;
+    padding: 15px 0 30px;
+    margin-top: 30px;
+}
+.gd1{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.gd1>h3{
+    font-size: 26px;
+    color: #333;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+
+.gd2>div{
+    width: 29.4%;
+    float: left;
+    margin:0  0.7%;
+    background: #ffffff;
+    padding: 10px;
+}
+.gd2>div:last-child{
+    margin-right: 0;
+}
+.gd5{
+    height: 92px;
+    float: left;
+    width: 35%;
+}
+.gd5 img{
+    width:100% ;
+    height: 80px;
+}
+.gd6{
+    float: right;
+    width: 60%;
+}
+.gd4{
+    height: 92px;
+    overflow: hidden;
+}
+.gd6>h3{
+    font-size: 14px;
+    color: #888;
+    max-height: 66px;
+    overflow: hidden;
+    line-height: 19px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+.gd6 span{
+    display: block;
+    font-size: 12px;
+    color: #888;
+    line-height: 24px;
+}
+.gd7 {
+    line-height: 24px;
+    height: 122px;
+    font-size: 13px;
+    color: #666;
+    overflow: hidden;
+}
+
+
+
+
+
+
+.cainfo1{
+    max-width:1150px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 25px;
+
+}
+.cainfo{
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+    background: #f8f8f8;
+	margin-top:90px;
+
+}
+.case_cont-title{
+    position: relative;
+}
+.case_cont-title h1 {
+    font-size: 24px;
+    color: #767575;
+    margin-right: 30%;
+    font-weight: normal;
+    line-height: 40px;
+}
+.case_cont-title p {
+    color: #999;
+    margin-top: 5px;
+}
+
+.case_cont-title ul.posi-absou {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.case_cont-title li {
+    float: left;
+    margin-left: 40px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.case_cont-title li b {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto 8px;
+    background: url(../images/case_03.png) no-repeat 0 0;
+}
+.case_cont-title li b.one{
+    background-position:4px -40px;
+}
+.case_cont-title li b.two{
+    background-position:-68px -40px;
+}
+.case_cont-title li b.three{
+    background-position:-141px -40px;
+}
+.case_cont-title li b.four{
+    background-position:-212px -40px;
+}
+
+.case_cont-title li:hover b.one{
+    background-position:4px 0px;
+}
+.case_cont-title li:hover b.two{
+    background-position:-68px 0px;
+}
+.case_cont-title li:hover b.three{
+    background-position:-141px 0px;
+}
+.case_cont-title li:hover b.four{
+    background-position:-212px 0px;
+}
+.case_cont-title li:hover span{
+    color: #bf0000;
+}
+.case_cont-title p span{
+    display: inline-block;
+    line-height: 25px;
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+.case_cont-title{
+    border-bottom: dashed 1px #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+.zhans img{
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+	
+}
+.zhans{
+line-height:30px;
+}
+.fh span{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 20px auto;
+    background: #ccc;
+    color: #eee;
+    display:block;
+    border-radius: 50px;
+}
+.fh span a{
+    color: #333;
+}
+.fh span:hover{
+    background: #bf0000;
+}
+.fh span:hover a{
+    color: #ffffff;
+}
+.fh{
+    width: 100%;
+    border-bottom: dashed 1px #ccc;
+    margin-bottom: 10px;
+}

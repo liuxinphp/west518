@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport">
+    <title>{$res.title}-西安腾诺网络</title>
+    <meta name="keywords" content="西安网站维护，西安网站优化，西安网站制作，西安做网站，西安做网页，西安网页制作，西安网站开发，西安企业网站制作，西安网页设计" />
+    <meta name="description" content="西安腾诺网络案例栏目为您展示西安网站制作，西安做网站，西安网页设计等案例展示，我们用实际案例让您相信我们的专业水平！" />
+    <link rel="stylesheet" href="__ROOT__/Public/Home/css/cart.css">
+</head>
+<body>
+<div class="top">
+    <div class="top1">
+        <include file="public/header" />
+    </div>
+</div>
+
+    <div class="cainfo">
+        <div class="cainfo1">
+            <div class="case_cont-title">
+                <h1> {$res.title|msubstr=0,15}</h1>
+                <ul class="posi-absou">
+                    <li><a href="#" target="_blank"><b class="one"></b><span>链接</span></a></li>
+                    <li><a href="#" rel="digg"><b class="two"></b><span>喜欢（<font id="digg">152</font>）</span></a></li>
+                    <li><a href="#" rel="tread"><b class="three"></b><span>赞（<font id="tread">129</font>）</span></a></li>
+                    <li><a href="#" class="jiathis jiathis_txt" style=""><b class="four"></b><span>分享</span></a></li>
+                    <script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js" charset="utf-8"></script><script type="text/javascript" src="http://v3.jiathis.com/code_mini/plugin.client.js" charset="utf-8"></script>
+                </ul>
+                <p><span>发表时间：{:date('Y-m-d ',$res['time'])}</span><span>浏览次数：{$res.liulan} </span><span>来源：{$res.author}</span></p>
+            </div>
+            <div class="zhans">
+                 {$res.content}
+            </div>
+            <div class="fh">
+                <span><a href="javascript:history.go(-1)">返回</a></span>
+            </div>
+            <div class="ye1">
+               <if condition="($prev neq '')"> 
+						 <a href="__APP__/alinfo-id-{$prev['id']}.html" class="ye2">
+						<span></span>上一篇：{$prev.title}
+						</a>
+						 <else />
+						  <a class="ye2"><span></span>上一篇:暂没数据</a>
+					  </if>
+					   <if condition="($next neq '')"> 
+						   <a href="__APP__/alinfo-id-{$prev['id']}.html" class="ye3">
+						 <span></span>下一篇：{$next.title}
+							   </a>
+								<else />
+							 <a class="ye3"><span></span>下一篇:暂没数据</a>
+						</if>
+				
+            </div>
+        </div>
+    </div>
+<include file="Public:footer" />

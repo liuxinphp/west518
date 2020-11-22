@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport">
+    <title>西安网站制作-做网站-西安网页设计-西安</title>
+	<meta name="keywords" content="西安网站维护，西安网站优化，西安网站制作，西安做网站，西安做网页，西安网页制作，西安网站开发，西安企业网站制作，西安网页设计" />
+    <meta name="description" content="西安网站制作、做网站、西安网页制作设计-就找西安腾诺网络，我公司是一家集网站制作，网站设计，网页制作，网站推广，网站优化，网站维护等为一体的网络公司，公司秉承以人为本，精益求精的理念，期待与你的合作。" />
+</head>
+<body>
+   <include file="public/header" />
+
+    <div class="swiper-container" style="width: 100%">
+        <div class="swiper-wrapper">
+		  <volist name="banner_list" id="vo">
+            <div class="swiper-slide"><img src="__ROOT__/Public/{$vo.imgpath}" alt="西安网站制作"></div>
+          </volist>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Navigation -->
+        <div class="swiper-button-prev"><img src="__ROOT__/Public/Home/images/re.png" alt="做网站"></div>
+        <div class="swiper-button-next"><img src="__ROOT__/Public/Home/images/le.png" alt="西安网页设计"></div>
+    </div>
+    <div class="fwxm">
+        <div class="fwxm1">
+            <h3>提供有效的互联网解决方案</h3>
+            <p>在这个互联网＋时代，处处电商、微商、微营销、APP，我们专注于互联网产品的创新！<br>
+                通过稳扎稳打的项目经验累积，我们致力于为企业提供全面有效的互联网解决方案。秉承与客户双赢的理念，通过互联网将您的声音传向您的客户。</p>
+
+            <div class="fwxm2">
+                <ul>
+                    <li>
+                        <a href="javascript:;">
+                            <h3 class="fwxm3">网站建设</h3>
+                            <div class="fwxm4">岁月砺金，铸就品牌。我们专注于网站建设，5年的坚持让我们成为了建站专家！</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <h3 class="fwxm3">优化排名</h3>
+                            <div class="fwxm4">技术成就一个时代，模式引领一个行业。360引擎利于网站排名提升的系统！</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <h3 class="fwxm3">微信开发</h3>
+                            <div class="fwxm4">我们耕耘于互联网行业，走在微信连接一切的路上，迎来的是全新的世界！</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <h3 class="fwxm3">全网营销</h3>
+                            <div class="fwxm4">腾诺网络给您带来温馨般服务。我们的团队永远是您网站正常运行的保障队！</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <h3 class="fwxm3">APP开发</h3>
+                            <div class="fwxm4">多种风格可选，多种形象定制，全新视听冲击，视频向导让您赢在第一印象！</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+    <div class="alzs">
+        <div class="alzs1">
+            <h3>案例展示</h3>
+            <p>腾诺网络在行业内积累了丰富的实践经验与案例，其中包括企业站、集团站、微网站、电子商城的设计及定制开发。<br>
+                截止至2017年底共服务完成上百家客户，并且这一数字还在不断增加。腾诺网络以持续不断的专业化与创新精神引领所涉领域设计进入新的发展历程。</p>
+            <div class="alzs2">
+                <ul>
+				   <volist name="al_list" id="vo">
+                    <li>
+                        <a href="__APP__/alinfo-id-{$vo['id']}.html">
+                            <img src="__ROOT__/Public/{$vo.imgpath}" alt="西安网络公司">
+                        </a>
+                        <div class="alzs3">
+                            <a href="__APP__/alinfo-id-{$vo['id']}.html">
+                                <img src="__ROOT__/Public/Home/images/cgo_ind6.png" alt="西安网站推广">
+                                <div>{$vo.title}</div>
+                            </a>
+                        </div>
+                    </li>
+					</volist>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<div class="clear"></div>
+<div class="inab">
+    <div class="inab1">
+        <h3>关于我们</h3>
+        <p>腾诺网络在行业内积累了丰富的实践经验与案例，其中包括企业站、集团站、微网站、电子商城的设计及定制开发。</p>
+        <div class="inab2">
+            <div class="inab3">
+                <img src="__ROOT__/Public/{$about_list.imgpath}" alt="西安网页制作">
+            </div>
+            <div class="inab4">
+                <div class="inab5">
+                    {$about_list.content}             
+					</div>
+
+                <div class=" qwf">
+                    <ul>
+                        <li class="do"><a href="__APP__/about.html" title="西安网站建设公司">公司简介</a></li>
+                        <li><a href="__APP__/about.html" title="西安网站开发">公司文化</a></li>
+                        <li><a href="__APP__/fw.html" title="西安网络公司">服务理念</a></li>
+                        <li><a href="__APP__/al.html" title="西安网站制作">案例展示</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="clear"></div>
+</div>
+    <div class="clear"></div>
+    <div class="zzlc">
+        <div class="zzlc1">
+            <h3>优秀的项目是这样出来的</h3>
+            <p>优化产品流程，增强产品的易用性，提高使用者的工作效率，科学地组织生产。</p>
+            <div class="zzlc3">
+                <ul>
+                    <li class="zzlc4">
+                         <img src="__ROOT__/Public/Home/images/liu1.png" alt="西安小程序开发">
+                         <h3>需求沟通</h3>
+                        <div>倾听客户需求，了解用户使用环境和操作流程</div>
+                    </li>
+                    <li class="zzlc5">
+                        <img src="__ROOT__/Public/Home/images/liu2.png" alt="西安网站建设">
+                    </li>
+                    <li class="zzlc4">
+                        <img src="__ROOT__/Public/Home/images/liu3.png" alt="西安网站制作">
+                        <h3>页面设计</h3>
+                        <div>根据客户内容要求，搭建结构图进行页面风格设计</div>
+                    </li>
+                    <li class="zzlc5">
+                        <img src="__ROOT__/Public/Home/images/liu2.png" alt="西安网页制作">
+                    </li>
+                    <li class="zzlc4">
+                        <img src="__ROOT__/Public/Home/images/liu4.png" alt="西安网站建设公司">
+                        <h3>前端制作</h3>
+                        <div>CSS3、JS、HTML5实现页面动态展示</div>
+                    </li>
+                    <li class="zzlc5">
+                        <img src="__ROOT__/Public/Home/images/liu2.png" alt="西安网站制作公司">
+                    </li>
+                    <li class="zzlc4">
+                        <img src="__ROOT__/Public/Home/images/liu5.png" alt="西安网站开发">
+                        <h3>技术开发</h3>
+                        <div>移动应用数据对接与开发</div>
+                    </li>
+                    <li class="zzlc5">
+                        <img src="__ROOT__/Public/Home/images/liu2.png" alt="西安小程序开发">
+                    </li>
+                    <li class="zzlc4">
+                        <img src="__ROOT__/Public/Home/images/liu6.png" alt="西安网站制作">
+                        <h3>测试反馈</h3>
+                        <div>修改调整，规范完善</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="clear"></div>
+    <div class="inxe">
+        <div class="inxe1">
+             <div class="inxe2">
+                <div class="inxe3"><h3>知识观点 <i>Knowledge</i><a href="__APP__/news.html">MORE>></a><b></b></h3></div>
+                 <div class="int">
+                     <a href="__APP__/newsinfo-id-{$newss_list['id']}.html">
+                         <img src="__ROOT__/Public/{$newss_list.imgpath}" alt="西安网络公司">
+                     </a>
+                     <div>
+                         <h3><a href="__APP__/newsinfo-id-{$newss_list['id']}.html">{$newss_list.title|msubstr=0,12}</a></h3>
+                         <div><a href="__APP__/newsinfo-id-{$newss_list['id']}.html"> {$newss_list.content|msubstr=0,55}</a></div>
+                     </div>
+                 </div>
+                <div class="inxe41">
+                    <ul>
+					   <volist name="news_list" id="vo">
+                        <li><a href="__APP__/newsinfo-id-{$vo['id']}.html">{$vo.title|msubstr=0,20}</a><span>{:date('Y-m-d ',$vo['time'])}</span></li>
+                       </volist>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="inxe2">
+                <div class="inxe3"><h3>公司动态 <i>Company dynamics</i><a href="__APP__/news.html">MORE>></a><b></b></h3></div>
+
+                <div class="inxe4">
+                    <ul>
+					  <volist name="newsa_list" id="vo">
+                        <li><a href="__APP__/newsinfo-id-{$vo['id']}.html">{$vo.title|msubstr=0,20}</a><span>{:date('Y-m-d ',$vo['time'])}</span></li>
+                      </volist> 
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+		<div class="clear"></div>
+    </div>
+
+<div class="yq">
+    <div class="yq1">
+        <!--<img src="__ROOT__/Public/Home/images/bott-1.jpg" alt="西安网站推广" class="yq2">-->
+		<div class="yq2">友情链接</div>	
+		<volist name="link_list" id="vo">
+        <a href="{$vo.url}">{$vo.name}</a>&nbsp;|&nbsp;
+		</volist>
+    </div>
+	    <div class="clear"></div>
+</div>
+
+<include file="Public:footer" />

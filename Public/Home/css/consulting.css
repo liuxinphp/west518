@@ -1,0 +1,275 @@
+.sul{
+    width: 100%;
+    height: 345px;
+    background: url("../images/new.jpg") no-repeat center top;
+    background-size: 1920px 345px;
+	margin-top:90px;
+}
+.neq1{
+    max-width: 1150px;
+    padding: 20px 0 15px;
+    text-align: center;
+    margin: 0 auto;
+}
+.neq{
+    width: 100%;
+    height: auto;
+    background: #ececec;
+    margin: 0px auto ;
+    padding-bottom: 30px;
+}
+.neq1 li{
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    height: 30px;
+    margin: 0 15px 0;
+    border: solid 1px #ccc;
+    background: #eee;
+    line-height: 30px;
+    border-radius: 30px;
+}
+.neq1{
+    margin-bottom: 15px;
+}
+.neq1 li a{
+    color:#333 ;
+}
+.neq1 li:hover{
+    background: #bf0000;
+    border-color: #bf0000;
+}
+.neq1 li:hover a{
+    color: #ffffff;
+}
+
+
+
+
+.neq2>div{
+    width: 27%;
+    float: left;
+    margin:0  2% 20px;
+    background: #ffffff;
+    padding: 10px;
+
+}
+.neq2{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.neq2>div:hover{
+    background: #bf0000;
+}
+.neq2>div:hover .neq6>h3{
+    color: #ffffff;
+}
+.neq2>div:hover .neq6>span{
+    color: #ffffff;
+}
+.neq2>div:hover .neq7{
+    color: #ffffff;
+}
+.neq2>div:nth-of-type(3n){
+    margin-right: 0;
+}
+.neq5{
+    height: 92px;
+    float: left;
+    width: 35%;
+}
+.neq5 img{
+    width:100% ;
+    height: 80px;
+}
+.neq6{
+    float: right;
+    width: 60%;
+}
+.neq4{
+    height: 92px;
+    overflow: hidden;
+}
+.neq6>h3{
+    font-size: 14px;
+    color: #888;
+    max-height: 66px;
+    overflow: hidden;
+    line-height: 23px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+.neq6 span{
+    display: block;
+    font-size: 12px;
+    color: #888;
+    line-height: 24px;
+}
+.neq7 {
+    line-height: 24px;
+    height: 122px;
+    font-size: 13px;
+    color: #666;
+    overflow: hidden;
+}
+
+.culinfo{
+    width: 100%;
+    padding: 20px 0;
+    background: #f8f8f8;
+	margin-top:90px;
+}
+.culinfo5>h3{
+    font-size: 24px;
+    color: #767575;
+    margin-right: 60px;
+    font-weight: normal;
+}
+.culinfo1{
+    max-width: 1150px;
+    padding: 20px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+.culinfo4{
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #eee;
+    border: solid 1px #ddd;
+    line-height: 40px;
+    text-align: center;
+    margin-top: -32px;
+}
+.culinfo2{
+    width: 70%;
+    float: left;
+}
+.culinfo3{
+    width: 28%;
+    float: right;
+    background: #f6f5f3;
+    border: solid 1px #eee;
+}
+.culinfo5{
+    border-bottom: dashed 1px #ccc;
+    padding: 0 10px 10px;
+    margin-bottom: 30px;
+}
+.culinfo4:hover{
+    background: #bf0000;
+}
+.culinfo4:hover a{
+    color: #fff;
+}
+.culinfo5 p span{
+    display: inline-block;
+    margin-right: 15px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+.jies{
+    line-height: 30px;
+}
+.jies img{
+    max-width: 100%;
+    display:block ;
+    margin: 10px auto;
+}
+
+.fh span{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 20px auto;
+    background: #ccc;
+    color: #eee;
+    display:block;
+    border-radius: 50px;
+}
+.fh span a{
+    color: #333;
+}
+.fh span:hover{
+    background: #bf0000;
+}
+.fh span:hover a{
+    color: #ffffff;
+}
+.fh{
+    width: 100%;
+    border-bottom: dashed 1px #ccc;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.news_right-title {
+    background: url(../images/news_04.png) no-repeat 92% 60% #bf0000;
+    color: #fff;
+    padding: 10px 20px;
+}
+.news_right-title>h1{
+    font-size: 22px;
+    font-weight: normal;
+}
+.news_right-title>h2{
+    font-size: 18px;
+    font-weight: normal;
+}
+.zxlb li{
+    padding:18px;
+    border-bottom: dashed 1px #ddd;
+}
+.zxlb li:last-child{
+    border-bottom: none;
+}
+.zxlb li i{
+    float: left;
+    width: 52px;
+    height: 52px;
+    display: inline-block;
+    border-radius: 50px;
+    border: solid 1px #ccc;
+    line-height: 25px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.zxlb li i span{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-style: normal;
+    font-size: 20px;
+}
+.zxlb li i em{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-style: normal;
+}
+.zxlb1>h3{
+    font-size: 16px;
+    line-height: 26px;
+    height: 26px;
+    overflow: hidden;
+    margin-top: 5px;
+    font-weight: normal;
+    color: #666;
+}
+.zxlb1 div{
+    color: #999;
+    font-size: 12px;
+    line-height: 18px;
+    height: 36px;
+    overflow: hidden;;
+}

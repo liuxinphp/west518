@@ -1,0 +1,96 @@
+
+		<div id="content">
+			<div id="content-header">
+				<h1>添加</h1>
+			</div>
+			<div id="breadcrumb">
+				<a href="__APP__/Admin/Index/index" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> 后台首页</a>
+				<a  class="current">添加</a>
+			</div>
+			<div class="container-fluid">
+				<div class="row-fluid">
+					<div class="span12">
+						<div class="widget-box">
+							<div class="widget-title">
+								<span class="icon">
+									<i class="icon-align-justify"></i>									
+								</span>
+								<h5>Rest of elements...</h5>
+							</div>
+							<div class="widget-content nopadding">
+								<form action="" method="post" class="form-horizontal" enctype="multipart/form-data" />
+									
+									
+									
+                                    <div class="control-group">
+                                        <label class="control-label">账号</label>
+                                        <div class="controls">
+                                            <input type="text" name="username" placeholder="管理员账号" id="username" style="width:200px"/><span style="color:red" id="info1"></span>
+                                        </div>
+                                    </div>
+									<div class="control-group">
+                                        <label class="control-label">权限</label>
+                                        <div class="controls">
+                                            <select style="width:120px" name="level">
+												<volist name="levellist" id="vo">
+												<option value="{$vo.id}">{$vo.name}</option>
+												</volist>
+											</select>
+                                        </div>
+                                    </div>
+									<div class="control-group">
+                                        <label class="control-label">密码</label>
+                                        <div class="controls">
+                                            <input type="password" name="password" placeholder="管理员密码" style="width:200px"/>
+                                        </div>
+                                    </div>
+									<div class="control-group">
+                                        <label class="control-label">邮箱</label>
+                                        <div class="controls">
+                                            <input type="email" name="email" placeholder="管理员邮箱" style="width:200px"/>
+                                        </div>
+                                    </div>
+                                     <script src="js/ckeditor/ckeditor.js"></script>
+									<script>
+										CKEDITOR.replace('des');
+										CKEDITOR.config.filebrowserUploadUrl = 'xxxxxx';
+									</script>
+									<div class="form-actions">
+										<button type="submit" id="sub" class="btn btn-primary" disabled>提交</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+<script>
+ $(function(){
+    $('#username').keyup(function(){
+	     var user=$(this).val();
+		 $.ajax({
+			   type: "POST",
+			   url: "__APP__/Admin/Admin/ajax",
+			   data: "username="+user,
+			   success: function(msg){
+				 if(msg==1){
+				   $('#sub').attr('disabled',true);
+				   $('#info1').html('用户名已存在');
+				 }else{
+				   $('#sub').attr('disabled',false);
+				   $('#info1').html(''); 
+				 }
+			   }
+			});
+	})
+ })
+</script>
+
+
+
+
+
+
+
+
+
+

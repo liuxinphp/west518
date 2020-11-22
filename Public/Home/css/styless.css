@@ -1,0 +1,531 @@
+@media all and (max-width: 640px){
+    .swiper-slide img {
+        width: 100%;
+        height: 171px;
+    }
+    .fen{
+         display: block;
+     }
+    .top3 li div{
+        display: none;
+    }
+    .top3 li{
+        width: 100%;
+        border-bottom: dashed 1px #ccc;
+        display: block;
+        height: 37px;
+    }
+    .top3{
+        display: none;
+        float: none;
+        margin-top: 0;
+
+        z-index: 100;
+        background: rgba(255, 255, 255, 0.94);
+        position: absolute;
+        left: 0;
+        top:67px;
+        width: 100%;
+    }
+
+    .top3 li:hover{
+        background: #bf0000;
+    }
+    .top3 li:hover{
+        border-bottom: solid 1px #bf0000;
+    }
+    .top3 li:hover a{
+        color: #fff;
+    }
+    .fwxm2 li {
+        display: inline-block;
+        float: left;
+        width:  37.8%;;
+        margin: 0 8px 10px;
+        border: 1px solid #efefef;
+        background: #f9f9f9;
+        padding: 10px 10px 22px;
+    }
+
+    .alzs2 li {
+        display: inline-block;
+        float: left;
+        width: 49%;
+        margin-right: 5px;
+        position: relative;
+        overflow: hidden;
+    }
+    .alzs2 li:nth-of-type(2n){
+        margin-right: 0;
+    }
+    .alzs2{
+        padding: 0 5px;
+    }
+    .alzs2 li>a>img {
+        width: 100%;
+        height: 110px;
+    }
+    .alzs3 a img {
+        margin: 16px auto 10px;
+        width: 44px;
+        height: 44px;
+    }
+    .alzs3 a div {
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .alzs3 {
+        background: rgba(191, 0, 0, 0.77);
+        width: 100%;
+        height: 97%;
+        transition: .5s;
+        text-align: center;
+    }
+    .zzlc5{
+        display: none!important;
+    }
+    .zzlc3{
+        padding: 0 5px;
+    }
+    .zzlc3 li {
+        display: inline-block;
+        float: left;
+        width: 49%!important;
+    }
+    .inxe1>div {
+        float: left;
+        display: inline-block;
+        width: 100%!important;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .int img {
+        width: 100%;
+        height: 127px;
+        margin-top: 5px;
+    }
+    .yq1{
+        padding: 0 5px;
+    }
+    .yq1 img{
+        display: block;
+        float: none;
+        margin: 0 auto 15px;
+    }
+    .foot{
+        margin-bottom: 56px;
+    }
+    .foot1{
+        max-width: 1150px;
+        margin: 0 auto;
+        height: auto;
+
+    }
+    .foot3 {
+        width: 100%;
+        float: none!important;
+        margin-bottom: 15px;
+    }
+    .footq{
+        width: 100%;
+        float: none!important;
+        margin-bottom: 20px;
+    }
+    .foot11 input {
+        width: 97%;
+        border: none;
+        height: 40px;
+        background: #bf0000;
+        color: #ffffff;
+        outline: none;
+        font-size: 15px;
+    }
+    .foot10 textarea {
+        width: 90%;
+        height: 37px;
+        padding: 5px 10px;
+        line-height: 20px;
+        resize: none;
+        color: #cbcbcb;
+        background: #282b31;
+        outline: none;
+        border: none;
+    }
+    .zzlc3 {
+         height: 0;
+    }
+    .fwxm2 li:last-child{
+        display: none!important;
+    }
+    .fwxm1>p {
+        height: 52px;
+        overflow: hidden;
+
+    }
+    .alzs1>p {
+        height: 52px;
+        overflow: hidden;
+    }
+    .fwxm2 li a div {
+        line-height: 30px;
+        height: 60px;
+        overflow: hidden;
+    }
+    .alzs {
+        width: 100%;
+        padding: 15px 0 15px;
+    }
+    .foot21>div {
+        font-size: 13px;
+        color: #555;
+        line-height: 30px;
+        padding: 0 5px;
+    }
+    .foot1>div{
+        float: left;
+        margin-right: 15px;
+        padding: 0 5px;
+        width: 97%;
+    }
+    .foot9 input {
+        width: 39%;
+    }
+    .spanq {
+        width: 55px;
+        font-size: 16px;
+    }
+    .con41{
+        width: 81%;
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+
+    }
+
+    .con1 {
+        height: 665px;
+    }
+
+    .ser1>p {
+        line-height: 26px;
+        font-size: 14px;
+        text-align: center;
+        color: #666;
+        height: 52px;
+        overflow: hidden;
+
+    }
+    .ser2 li {
+        width: 48.7%;
+        display: inline-block;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .ser6 {
+        float: none;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .ser6 img {
+        width: 100%;
+        max-height: 325px;
+        height: 143px;
+    }
+    .ser7 {
+        float: none;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .ser7>h3 {
+        font-size: 25px;
+        line-height: 36px;
+        color: #333;
+        font-weight: normal;
+    }
+    .wrap li {
+        width: 20.5%;
+        margin: 0 2%;
+        position: relative;
+        display: inline-block;
+        float: left;
+    }
+
+    .wrap li {
+        width: 45.5%;
+
+        position: relative;
+
+        float: left;
+        display: inline-block;
+        margin: 10px 2%;
+    }
+    .ln1>h3 {
+        font-size: 21px;
+        color: #333;
+        line-height: 50px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .ln1>p {
+        line-height: 26px;
+        font-size: 14px;
+        text-align: center;
+        color: #666;
+        height: 78px;
+        overflow: hidden;
+        padding: 0 5px;
+    }
+    .solu_img {
+        height: 123px;
+        border-radius: 50%;
+        border: solid 1px #bf0000;
+        text-align: center;
+        padding: 10px;
+    }
+    .solu_img h2 {
+        font-size: 17px;
+        line-height: 25px;
+        margin: 0px 0 2px;
+        color: #bf0000;
+    }
+    .wrap {
+        height: 330px;
+        margin-top: 25px;
+    }
+
+    .gd {
+        background: #ececec;
+        padding: 10px 0 5px;
+    }
+
+    .gd2>div {
+        width: 92%;
+        float: none;
+        margin: 0 0.7%;
+        background: #ffffff;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .solu_tex {
+        padding: 10px;
+        text-align: center;
+        line-height: 27px;
+        width: 126px!important;
+        height: 125px!important;
+        overflow: hidden;
+    }
+
+    .abou2 {
+        float: none;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .abou2 img{
+        width: 92%;
+    }
+    .abou1{
+        width: 94%;
+        height:  auto;
+        margin: -200px auto 15px;
+    }
+    .abou3 {
+        float: none;
+        width: 100%;
+    }
+
+    .abou3>h3 {
+        font-size: 16px;
+        line-height: 36px;
+        color: #333;
+        font-weight: normal;
+        margin-bottom: 10px;
+    }
+    .abi1>p {
+        line-height: 26px;
+        font-size: 14px;
+        text-align: center;
+        color: #666;
+        height: 52px;
+        overflow: hidden;
+    }
+    .abi2 li {
+        float: left;
+        width: 49%;
+        margin: 1px 0.5%;
+    }
+    .neq2>div {
+        width: 90%;
+        float: none;
+        margin: 0 2% 20px;
+        background: #ffffff;
+        padding: 10px;
+    }
+    .neq1 li {
+        display: inline-block;
+        width: 91px;
+        text-align: center;
+        height: 30px;
+        margin: 0 5px 0;
+        border: solid 1px #ccc;
+        background: #eee;
+        line-height: 30px;
+        border-radius: 30px;
+    }
+    .case_cont-title ul.posi-absou {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: none;
+    }
+    .case_cont-title p span{
+        display: block;
+        line-height: 25px;
+    }
+    .culinfo3{
+        display: none;
+    }
+    .culinfo2{
+        width: 100%;
+    }
+    .culinfo5>h3 {
+        font-size: 19px;
+        color: #767575;
+        margin-right: 0;
+        font-weight: normal;
+    }
+    .culinfo4{
+        display: none;
+    }
+    .culinfo5 p span{
+        display: block;
+        line-height: 25px;
+    }
+    .calo1>p{
+        height: 52px;
+        overflow: hidden;
+    }
+    .cainfo {
+        width: 100%;
+        height: auto;
+        padding: 9px 0;
+        background: #f8f8f8;
+    }
+    .con2>p{
+        height: 52px;
+        overflow: hidden;
+    }
+    .ser8 {
+        font-size: 14px;
+        line-height: 32px;
+        margin: 10px 0;
+        color: #666;
+        height: 126px;
+        overflow: hidden;
+    }
+    .int>div>div{
+		height:75px;
+		overflow:hidden;
+		line-height:25px;
+    }
+
+    .inxe3>h3 i {
+        font-style: normal;
+        font-size: 14px;
+        color: #666;
+        display: inline-block;
+        margin-left: 16px;
+        font-weight: normal;
+    }
+    .swiper-pagination-bullet {
+        width: 17px!important;
+        height: 17px!important;
+    }
+    .db{
+        display: block;
+    }
+	.abi2 li img {
+    width: 100%;
+    height: 93px;
+}
+.yq2{
+	display:block;
+	float:none;
+	width:100%;
+	height:35px;
+	line-height:35px;
+}
+.inxe4 li span{
+	float:right;
+	color:#999;
+	font-size:13px;
+	display:none;
+}
+.inxe41 li span{
+	float:right;
+	color:#999;
+	font-size:13px;
+	display:none;
+}
+.inab1>p {
+    line-height: 26px;
+    font-size: 14px;
+    text-align: center;
+    color: #666;
+	height:52px;
+	overflow:hidden;
+    margin-bottom: 30px;
+}
+.inab2>div {
+    float: none!important;
+    width: 100%!important;
+}
+.inab1{
+	padding:0 5px;
+}
+.inab3 img{
+	width:100%;
+	height:120px;
+}
+.qwf li {
+    display: inline-block;
+    width: 24.76%;
+    line-height: 40px;
+    border-right: solid 1px #bf0000;
+    float: left;
+}
+.qwf {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin: 35px auto 0;
+    border: solid 1px #bf0000;
+}
+.top2{
+	width:80%;
+}
+.top2 img{
+	width:100%;
+	height:auto;
+	margin:14px 0;
+}
+.fen {
+    float: right;
+    width: 30px;
+    height: 40px;
+    margin: 22px 5px 0 0;
+    
+}
+.int div h3{
+height:30px;
+overflow:hidden;
+}
+}
+@media all and (max-width: 1920px) and (min-width: 1025px) {
+    .top3{
+        display: block!important;
+    }
+}

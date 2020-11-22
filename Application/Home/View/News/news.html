@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport">
+    <title>新闻资讯</title>
+    <meta name="keywords" content="西安网站维护，西安网站优化，西安网站制作，西安做网站，西安做网页，西安网页制作，西安网站开发，西安企业网站制作，西安网页设计" />
+    <meta name="description" content="西安腾诺网络新闻资讯栏目为你提供西安网站制作、西安做网站、西安网页设计等注意事项、西安网站建设常见问题解答等行业新闻资讯。" />
+	<link rel="stylesheet" href="__ROOT__/Public/Home/css/consulting.css">
+</head>
+<body>
+<div class="top">
+    <div class="top1">
+       <include file="public/header" />
+    </div>
+</div>
+<div class="sul">
+</div>
+
+<div class="neq">
+    <div class="neq1">
+        <ul>
+		    <volist name="news_cata" id="vo">
+            <li><a href="__APP__/news-id-{$vo['id']}.html">{$vo.name}</a></li>
+            </volist>
+        </ul>
+    </div>
+
+    <div class="neq2">
+	   <volist name="res" id="vo">
+        <div class="gd3">
+            <div class="neq4">
+                <a href="__APP__/newsinfo-id-{$vo['id']}.html">
+                    <div class="neq5"><img src="__ROOT__/Public/{$vo.imgpath}" alt="西安网站建设"></div>
+                    <div class="neq6">
+                        <h3>{$vo.title|msubstr=0,20}</h3>
+                        <span>{:date('Y-m-d ',$vo['time'])}</span>
+                    </div>
+                </a>
+            </div>
+            <div class="neq7">{$vo.content|msubstr=0,95}</div>
+        </div>
+       </volist>
+
+    </div>
+    <div class="clear"></div>
+    <div class="ye">
+        {$page}
+    </div>
+
+</div>
+<include file="Public:footer" />
